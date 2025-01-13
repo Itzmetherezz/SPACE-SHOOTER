@@ -1,0 +1,32 @@
+﻿<Window x:Class="SPACE_SHOOTER.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPACE_SHOOTER"
+        mc:Ignorable="d"
+        Title="SPACE SHOOTER" Height="615" Width="540">
+    <Grid>
+        <Canvas Name="MyCanvas" Focusable="True" Background="Black" KeyDown="OnKeyDown" KeyUp="OnlyKeyUp">
+            <Rectangle Name="player" Height="50" Width="60" Fill="Yellow" Canvas.Left="246" Canvas.Top="498" />
+            <Label Name="scoreText" Content="Score: 0" FontSize="18" FontWeight="Bold" Foreground="White"/>
+            <Label Name="damageText" Content="Score: " FontSize="18" FontWeight="Bold" Foreground="White" Canvas.Left="419"/>
+            
+
+        </Canvas>
+
+        <Grid Name="GameOverScreen" Background="Black" Visibility="Collapsed">
+            <TextBlock Text="Game Over" Foreground="Red" FontSize="48" FontFamily="Jokerman" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,200,0,0">
+                <TextBlock x:Name="FinalScore" Text="Ships Destroyed: 0" Foreground="White" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" FontFamily="Jokerman"  Margin="0,20,0,0"/>
+                <TextBlock x:Name="Restart" Text="Press R to Restart "  FontSize="24" HorizontalAlignment="Center" Margin="0,20,0,0" Foreground="White" FontFamily="Jokerman"/>
+
+            </StackPanel>
+             
+            
+        </Grid>
+                
+        
+
+    </Grid>
+</Window>
