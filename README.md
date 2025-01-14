@@ -16,7 +16,7 @@
 - Use the SpaceBar to shoot the enemies.
 - If the enemies pass you will take 10 damage.
 - If you stop them with your own ship you will take only 5 damage.
-- You just dont have to let them get 
+- You just dont have to let them get past you.
 
 
 ## Overview of Steps
