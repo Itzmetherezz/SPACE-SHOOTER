@@ -31,4 +31,6 @@
 - Made the speed of the enemies increase with the increase in score.
 - Added the game over screen and assigned the R key to Restart the game.
 
-Credits to Moot for the assets and inspiration.
+Credits to Moo ICT for the assets and inspiration.
+Tutorial:
+https://youtu.be/GGob3dGP5hw?si=v9fDyss_aEyHawOf
